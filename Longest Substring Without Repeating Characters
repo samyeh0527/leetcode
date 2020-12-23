@@ -1,12 +1,12 @@
 Your input
-"abccdddefdeeff"
+"abca"
 Output
 3
 Expected
 3
 
 
-
+s="abca"
 
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
