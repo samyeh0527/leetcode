@@ -23,6 +23,7 @@ class Solution:
                 start += 1
                 end -= 1
         k, n = k % len(nums), len(nums)
+        #k %= len(nums)
         if k:
             
             numReverse(0, n - 1) #[7, 6, 5, 4, 3, 2, 1]
