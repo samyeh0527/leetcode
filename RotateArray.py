@@ -23,6 +23,7 @@ class Solution:
                 start += 1
                 end -= 1
         k, n = k % len(nums), len(nums)
+        #prevention K > N so use K %= N 
         #k %= len(nums)
         if k:
             
